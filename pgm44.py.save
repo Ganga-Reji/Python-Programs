@@ -1,0 +1,8 @@
+from datetime import  date
+#date=int(input("enter the number: "))
+today=date.today
+print("current date:",today)
+#today = date.today()
+print("Current year:", today.year)
+print("Current month:", today.month)
+print("Current day:", today.day)

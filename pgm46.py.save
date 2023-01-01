@@ -1,0 +1,6 @@
+import pgm46_Armstrong
+upperlimit=int(input("Enter the upperlimit:))
+lowerlimit=int(input("Enter the lowerlimit:)) 
+for i in range(upperlimit,lowerlimit):
+	num=int(input("Enter a number:"))
+	print(pgm46_Armstrong.armstrong(num))
